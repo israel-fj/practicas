@@ -5,7 +5,7 @@
 	border: 2px solid #000;
 	align-items: center;
 	background: linear-gradient(to right, transparent, #949ee9);
-	padding: 5%;
+	padding: 2%;
 }
 .cabecera h1{
 	font-size: 2em;
@@ -16,6 +16,20 @@ nav {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.porfolio{
+	display: grid;
+	max-width: 1000px;
+	margin: 0 auto;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 300px 300px 300px;
+	grid-gap: 10px;
+}
+.porfolio img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 .div_menu a{
 	border: 2px solid #000;
 	padding: 5px 25px 5px 25px;
@@ -46,4 +60,8 @@ footer{
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+footer img{
+	width: 20px;
+	height: 20px;
 }
